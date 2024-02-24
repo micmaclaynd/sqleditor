@@ -4,9 +4,10 @@
 #define SQLE_LOGGER_HPP
 
 #include <sqleditor/types.hpp>
+#include <sqleditor/unknown.hpp>
 
 namespace SQLEditor {
-	struct ILogger {
+	struct ILogger : public SQLEditor::IUnknown {
 
 	};
 
