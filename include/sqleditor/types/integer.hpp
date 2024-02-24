@@ -3,22 +3,20 @@
 #ifndef SQLE_TYPES_INTEGER_HPP
 #define SQLE_TYPES_INTEGER_HPP
 
-#include <sqleditor/types/macros.hpp>
-
 namespace SQLEditor {
 	namespace Types {
-		using Int = SQLE_TYPES_INT;
-		using Int8 = SQLE_TYPES_CHAR;
-		using Int16 = SQLE_TYPES_SHORT;
-		using Int32 = SQLE_TYPES_INT;
-		using Int64 = SQLE_TYPES_LONG SQLE_TYPES_LONG;
+		using Int = int;
+		using Int8 = char;
+		using Int16 = short;
+		using Int32 = int;
+		using Int64 = long long;
 
-		using UInt = SQLE_TYPES_UNSIGNED SQLE_TYPES_INT;
-		using UInt8 = SQLE_TYPES_UNSIGNED SQLE_TYPES_CHAR;
-		using UInt16 = SQLE_TYPES_UNSIGNED SQLE_TYPES_SHORT;
-		using UInt32 = SQLE_TYPES_UNSIGNED SQLE_TYPES_INT;
-		using UInt64 = SQLE_TYPES_UNSIGNED SQLE_TYPES_LONG SQLE_TYPES_LONG;
+		using UInt = unsigned int;
+		using UInt8 = unsigned char;
+		using UInt16 = unsigned short;
+		using UInt32 = unsigned int;
+		using UInt64 = unsigned long long;
 	}
 }
 
-#endif
+#endif //SQLE_TYPES_INTEGER_HPP

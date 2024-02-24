@@ -3,16 +3,14 @@
 #ifndef SQLE_TYPES_OTHER_HPP
 #define SQLE_TYPES_OTHER_HPP
 
-#include <sqleditor/types/macros.hpp>
-
 namespace SQLEditor {
 	namespace Types {
-		using Void = SQLE_TYPES_VOID;
-		using Bool = SQLE_TYPES_BOOL;
+		using Void = void;
+		using Bool = bool;
 
 		template <class PointerType>
-		using Pointer = SQLE_TYPES_LEFT_POINTER(PointerType);
+		using Pointer = PointerType*;
 	}
 }
 
-#endif
+#endif //SQLE_TYPES_OTHER_HPP

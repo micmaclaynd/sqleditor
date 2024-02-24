@@ -8,4 +8,4 @@
 #include <sqleditor/types/integer.hpp>
 #include <sqleditor/types/other.hpp>
 
-#endif
+#endif //SQLE_TYPES_HPP

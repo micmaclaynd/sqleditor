@@ -3,8 +3,14 @@
 #ifndef SQLE_LOGGER_HPP
 #define SQLE_LOGGER_HPP
 
-namespace SQLEditor {
+#include <sqleditor/types.hpp>
 
+namespace SQLEditor {
+	struct ILogger {
+
+	};
+
+	SQLEditor::Types::Pointer<SQLEditor::ILogger> GetLogger();
 }
 
-#endif
+#endif //SQLE_LOGGER_HPP
